@@ -1,0 +1,103 @@
+@font-face{
+    font-family: 'Trading Post Bold';
+    src : url('./Trading Post Bold.ttf');
+}
+
+body{
+    font-family: 'Trading Post Bold';
+    font-size: 16px;
+    background: url(./img/lastwood-background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    text-align: center;
+    color: #fff;
+}
+
+header {
+    width: 100%;
+    height: 100%;
+}
+.header-logo {
+    position: absolute;
+    top: 16%;
+    left: 20%;
+    width: 100%;
+}
+.logo {
+    display: block;
+    width: 30%;
+}
+.logo-steam {
+    display: block;
+    margin: 30px 5%;
+    width: 20%;
+}
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.video iframe {
+    display: inline-block;
+}
+.button-content {
+    display: inline-block;
+}
+.button-linktoStrem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    margin-left: 20px;
+    height: 48px;
+    background: #44e1e1;
+    border-radius: 3px;
+    text-decoration-line: none;
+    font-size: 26px;
+    line-height: 48px;
+    color: #fff;
+}
+.button-linktoStrem:hover {
+    box-shadow: 2px 2px 2px #5ac5c5;
+}
+.steam-logo {
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.content {
+    margin: 10% 15%;
+    width: 70%;
+    font-family: 'Adobe Heiti Std';
+}
+.content h4 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 30px 0 0;
+}
+.content h4+h4 {
+    margin-top: 0;
+}
+.content h5 {
+    font-size: 20px;
+}
+.button-linkto {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 50px 20px 0;
+    background: #44e1e1;
+    border-radius: 3px;
+    text-decoration-line: none;
+    font-size: 22px;
+    font-family: 'Trading Post Bold';
+    color: #fff;
+}
+.button-linkto .hint {
+    font-size: 16px;
+}
+.button-linkto:hover {
+    box-shadow: 2px 2px 2px #5ac5c5;
+}
