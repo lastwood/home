@@ -13,6 +13,7 @@ body{
     text-align: center;
     color: #fff;
     overflow-x: hidden;
+    min-width: 960px;
 }
 
 header {
